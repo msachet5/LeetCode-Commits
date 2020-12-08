@@ -8,7 +8,6 @@ var kidsWithCandies = function(candies, extraCandies) {
   let marx=Math.max(...candies);
   let arrey =[];
     //84ms, 39.1mb Solution
-    /*
     for(let i = 0; i<candies.length; i++){
         if(candies[i]+extraCandies>=marx){
             arrey.push(true);
@@ -19,7 +18,7 @@ var kidsWithCandies = function(candies, extraCandies) {
     }
     return arrey;
     //100ms, 38,7mb solution
-    */
+    /*
     let i=0;
     while(i<candies.length){
         if(candies[i]+extraCandies>=marx){
@@ -31,4 +30,5 @@ var kidsWithCandies = function(candies, extraCandies) {
         i++;
     }
     return arrey;
+    */
 };
